@@ -53,6 +53,7 @@
     "vite-plugin-dts": "^4.5.4"
   },
   "scripts": {
+    "test": "node --test test/*.test.mjs",
     "clean": "rimraf dist",
     "build": "npm run clean && vite build",
     "prepublishOnly": "npm run build",

@@ -1,4 +1,4 @@
-import BlotSpec from './specs/BlotSpec.js';
+import type BlotSpec from './specs/BlotSpec.js';
 
 type Constructor<T> = new (...args: any[]) => T;
 
